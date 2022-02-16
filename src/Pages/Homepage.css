@@ -1,0 +1,26 @@
+.productArea {
+    background-image: url('../Images/bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.heading-area {
+    text-align: center;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .productArea {
+        height: auto;
+    }
+}
